@@ -436,8 +436,6 @@
       position: absolute;
       top: 20px;
       width: 125px;
-      transition: 1s;
-      left: 10px;
    }
 
    a {
@@ -621,7 +619,7 @@
    }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
    body {
       background-color: #a1ffff;
       font-family: Montserrat, sans-serif;
@@ -773,7 +771,7 @@
    }
 
    .i-2 {
-      width: 215px;
+      width: 221px;
    }
 
    #par-2 {
